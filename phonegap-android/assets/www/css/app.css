@@ -1,0 +1,22 @@
+.amounts {
+    text-align: center;
+}
+.amounts label {
+    display: inline-block;
+    min-width: 150px;
+}
+
+.totals {
+    color: #080;
+}
+
+// Fix blue focus rectangle around input fields on Android
+textarea:focus, input:focus{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);    
+    -webkit-user-modify: read-write-plaintext-only;
+}
+
+input {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);    
+    -webkit-user-modify: read-write-plaintext-only;
+}
